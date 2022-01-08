@@ -1,0 +1,20 @@
+
+# you can put any value of i that is above 2 if you want
+i = 200
+track = i
+
+
+while (i != 1):
+
+    if (i % 2) == 0:
+        i = i // 2
+    else:
+        i = (3 * i) + 1
+
+    if(i == 1):
+        track = track + 1
+        i = track
+        # remove brake to create an infinite loop of incrementing numbers if you want
+
+        break
+    print(i)
